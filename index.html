@@ -41,11 +41,45 @@
           src="./images/Logo.svg"
           alt="Logo Alura Books"
         />
+        <h1 class="container__titulo">
+          <b class="container__titulo-negrito">Alura</b>Books
+        </h1>
       </div>
+
+      <ul class="opcoes">
+        <input class="opcoes__botao" type="checkbox" id="opcoes-menu" />
+        <label for="opcoes-menu">
+          <li class="opcoes__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a class="lista-menu__link" href="#">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a class="lista-menu__link" href="#">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a class="lista-menu__link" href="#">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a class="lista-menu__link" href="#">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a class="lista-menu__link" href="#">Design & UX</a>
+          </li>
+        </ul>
+        <li class="opcoes__item">
+          <a href="#" class="opcoes__link">Favoritos</a>
+        </li>
+        <li class="opcoes__item">
+          <a href="#" class="opcoes__link">Minha Estante</a>
+        </li>
+      </ul>
+
       <div class="container">
         <a href="#"
           ><img
-            class="container__imagem"
+            class="container__imagem container__imagem-transparente"
             src="./images/Favoritos.svg"
             alt="Meus Favoritos"
         /></a>
@@ -201,18 +235,29 @@
         <div class="swiper-button-next"></div>
       </div>
       <!-- Card -->
-       <div class="card">
+      <div class="card">
         <!-- 1° Linha -->
         <div class="card__descricao">
           <!-- 1° Coluna -->
           <div class="descricao">
-          <img src="./images/Estrelinhas.svg" alt="" class="descricao__estrela">
-          <h3 class="descricao__titulo">Autora do Mês</h3>
-          <h2 class="descricao__titulo-nome">Juliana Agarikov</h2>
-          <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
-        </div>
-        <!-- 2° Coluna -->
-         <img class="descricao__imagem" src="./images/Escritora.svg" alt="Perfil da Escritora">
+            <img
+              src="./images/Estrelinhas.svg"
+              alt=""
+              class="descricao__estrela"
+            />
+            <h3 class="descricao__titulo">Autora do Mês</h3>
+            <h2 class="descricao__titulo-nome">Juliana Agarikov</h2>
+            <p class="descricao__texto">
+              Analista de sistemas e escritora, Juliana é especialista em
+              Front-End.
+            </p>
+          </div>
+          <!-- 2° Coluna -->
+          <img
+            class="descricao__imagem"
+            src="./images/Escritora.svg"
+            alt="Perfil da Escritora"
+          />
         </div>
         <!-- 2°Linha -->
         <div class="card__botoes">
@@ -228,30 +273,49 @@
           <!-- 2° coluna -->
           <a href="#" class="botao__ancora">Saiba mais</a>
         </div>
-
-       </div>
+      </div>
     </section>
 
     <section class="topicos">
       <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
       <ul class="topicos__lista">
-        <li class="topicos__item"><a class="topicos__link" href="#">Android</a></li>
-        <li class="topicos__item"><a class="topicos__link" href="#">Marketing Digital</a></li>
-        <li class="topicos__item"><a class="topicos__link" href="#">Agile</a></li>
-        <li class="topicos__item"><a class="topicos__link" href="#">Startups</a></li>
-        <li class="topicos__item"><a class="topicos__link" href="#">HTML & CSS</a></li>
-        <li class="topicos__item"><a class="topicos__link" href="#">Python</a></li>
+        <li class="topicos__item">
+          <a class="topicos__link" href="#">Android</a>
+        </li>
+        <li class="topicos__item">
+          <a class="topicos__link" href="#">Marketing Digital</a>
+        </li>
+        <li class="topicos__item">
+          <a class="topicos__link" href="#">Agile</a>
+        </li>
+        <li class="topicos__item">
+          <a class="topicos__link" href="#">Startups</a>
+        </li>
+        <li class="topicos__item">
+          <a class="topicos__link" href="#">HTML & CSS</a>
+        </li>
+        <li class="topicos__item">
+          <a class="topicos__link" href="#">Python</a>
+        </li>
         <li class="topicos__item"><a class="topicos__link" href="#">oo</a></li>
-        <li class="topicos__item"><a class="topicos__link" href="#">Java</a></li>
+        <li class="topicos__item">
+          <a class="topicos__link" href="#">Java</a>
+        </li>
       </ul>
     </section>
 
     <section class="contato">
       <h2 class="contato__titulo">Fique por dentro das novidades</h2>
-      <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-      <input class="contato__email" type="email" placeholder="Cadastre seu e-mail">
+      <p class="contato__texto">
+        Atualizações de e-books, novos livros, promoções e outros.
+      </p>
+      <input
+        class="contato__email"
+        type="email"
+        placeholder="Cadastre seu e-mail"
+      />
     </section>
-    <hr>
+    <hr />
 
     <footer class="rodape">
       <h2 class="rodape__titulo">Grupo Alura</h2>
